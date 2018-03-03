@@ -1,5 +1,5 @@
 {
-  "name": "imp",
+  "name": "@hentamine/imp",
   "version": "0.1.0",
   "description": "CLI tool for manipulating images for web",
   "main": "src/imp.js",

@@ -19,7 +19,7 @@ let
   newDirectory = `${width}x${height}-${quality}`,
   pattern = /.(jpe?g|png)/i;
 
-console.log(chalk.magentaBright(`Hentamine Compressor`));
+console.log(chalk.magentaBright(`Hentamine Imp`));
 console.log(chalk.magentaBright('v0.1.0'));
 
 fs.readdir('./', function (err, items) {
@@ -31,7 +31,7 @@ fs.readdir('./', function (err, items) {
             .resize(width, height)
             .quality(quality)
             .write(`${newDirectory}/${item}`);
-          console.log(chalk.green(item));
+          console.log(`[${chalk.green("Success")}] ${item}`);
         })
         
         .catch(err => {

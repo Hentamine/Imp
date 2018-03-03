@@ -1,0 +1,36 @@
+{
+  "name": "imp",
+  "version": "0.1.0",
+  "description": "CLI tool for manipulating images for web",
+  "main": "src/imp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hentamine/imp.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "image",
+    "manipulation",
+    "compressing",
+    "resizing",
+    "hentamine"
+  ],
+  "author": "hentamine",
+  "bin": {
+    "imp": "src/imp.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hentamine/imp/issues"
+  },
+  "homepage": "https://github.com/hentamine/imp#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.14.1",
+    "jimp": "^0.2.28"
+  }
+}
